@@ -46,4 +46,9 @@ def set_colour_white(event):
     global colour
     colour="white"
 
+canvas.tag_bind(red_id, "<Button-1>", set_colour_red)
+canvas.tag_bind(blue_id, "<Button-1>", set_colour_blue)
+canvas.tag_bind(black_id, "<Button-1>", set_colour_black)
+canvas.tag_bind(white_id, "<Button-1>", set_colour_white)
+
 window.mainloop()
