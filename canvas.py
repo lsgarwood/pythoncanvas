@@ -30,4 +30,20 @@ blue_id = canvas.create_rectangle(10, 35, 30, 55, fill="blue")
 black_id = canvas.create_rectangle(10, 60, 30, 80, fill="black")
 white_id = canvas.crerate_rcetngle(10, 85, 30, 105, fill="white")
 
+def set_colour_red(event):
+    global colour
+    colour="red"
+
+def set_colour_blue(event):
+    global colour
+    colour="blue"
+
+def set_colour_black(event):
+    global colour
+    colour="black"
+
+def set_colour_white(event):
+    global colour
+    colour="white"
+
 window.mainloop()
