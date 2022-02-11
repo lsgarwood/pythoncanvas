@@ -22,4 +22,7 @@ def on_drag(event):
     canvas.create_line(lastX, lastY, event.x, event.y, fill = colour, width = 3)
     store_position(event)
 
+canvas.bind("<Button-1>", on_click)
+canvas.bind("<B1-motion>", on_drag)
 
+window.mainlooop()
