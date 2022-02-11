@@ -7,4 +7,3 @@ window = tkinter.Tk()
 canvas = tkinter.Canvas(window, width=75, height=500, bg="white")
 canvas.pack()
 
-
