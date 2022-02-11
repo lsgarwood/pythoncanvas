@@ -23,6 +23,6 @@ def on_drag(event):
     store_position(event)
 
 canvas.bind("<Button-1>", on_click)
-canvas.bind("<B1-motion>", on_drag)
+canvas.bind("<B1-Motion>", on_drag)
 
-window.mainlooop()
+window.mainloop()
